@@ -6,7 +6,7 @@ import java.sql.*;
 public class TestDAO 
 {
 	DbConnection dbcon = new DbConnection();
-	public static final String SQL = "select * from floodproject.flood where fdate <> '0000-00-00' limit 100;";
+	public static final String SQL = "select * from floodproject.flood where fdate <> '0000-00-00' limit 10;";
 	Connection con = null;
 	PreparedStatement pst = null;
 	ResultSet resultSet = null;
